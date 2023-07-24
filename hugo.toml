@@ -1,7 +1,6 @@
 baseURL = ''
 languageCode = 'en-us'
 title = 'RedPill'
-theme = 'roxo-hugo'
 
 # Site Menus
 [menu]
