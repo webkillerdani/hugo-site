@@ -1,0 +1,21 @@
+<section style="background-image: url('{{ .Params.values.image3 }}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-8 col-12">
+                <h2>{{ .Params.values.heading }}</h2>
+                <ul>
+                    {{ range .Params.values.list_values }}
+                    <li>
+                       <span>icon</span> 
+                       <div>
+                            <h3>{{ .heading}}</h3>
+                            <p>{{ .description }}</p>
+                       </div>
+                    </li>
+                    {{ end }}
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</section>
