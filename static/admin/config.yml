@@ -45,7 +45,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Values", name: "values", widget: "object", fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Image", name: "image", widget: "image"},
-              {label: "List Values", name: "list_values", widget: list, fields:[{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: "text"}] }]}
+              {label: "List Values", name: "list_values", widget: list, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: "text"}] }]}
                       
       - file: "content/contact/_index.md"
         label: "Contact Page"
