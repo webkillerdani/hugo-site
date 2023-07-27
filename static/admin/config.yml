@@ -43,15 +43,15 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Heading", name: "heading", widget: string},
               {label: "Image3", name: "image3", widget: image},
               {label: "List Values", name: "list_values", widget: list, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: "text"}] }]}
-            - {label: "Services", name: "services", widget: "object", fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"},
-              {label: "Image4", name: "image4", widget: image},
-              {label: "List Services", name: "list_services", widget: list, fields: [
-                {label: Icon, name: icon, widget: string},
-                {label: Heading, name: heading, widget: string}, 
-                {label: Description, name: description, widget: "text"}
-              ] }]}
+          - {label: "Services", name: "services", widget: "object", fields: [
+            {label: "Heading", name: "heading", widget: string},
+            {label: "Text", name: "text", widget: "text"},
+            {label: "Image4", name: "image4", widget: image},
+            {label: "List Services", name: "list_services", widget: list, fields: [
+              {label: Icon, name: icon, widget: string},
+              {label: Heading, name: heading, widget: string}, 
+              {label: Description, name: description, widget: "text"}
+            ] }]}
                       
       - file: "content/contact/_index.md"
         label: "Contact Page"
