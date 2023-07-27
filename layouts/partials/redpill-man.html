@@ -1,15 +1,15 @@
-<section style="background-image: url('{{ .Params.values.image3 }}')">
+<section class="section-title" style="background-image: url('{{ .Params.values.image3 }}');background-repeat: no-repeat; background-size: cover; background-attachment: fixed;padding: 100px 0;">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-8 col-12">
-                <h2>{{ .Params.values.heading }}</h2>
-                <ul>
+                <h2 class="mb-5">{{ .Params.values.heading }}</h2>
+                <ul class="list-unstyled">
                     {{ range .Params.values.list_values }}
-                    <li>
-                       <span>icon</span> 
+                    <li class="d-flex ">
+                        <i class="fa fa-2x fa-check text-dark mr-4"></i>
                        <div>
-                            <h3>{{ .heading}}</h3>
-                            <p>{{ .description }}</p>
+                            <h3 class="text-white">{{ .heading}}</h3>
+                            <p class="text-white">{{ .description }}</p>
                        </div>
                     </li>
                     {{ end }}

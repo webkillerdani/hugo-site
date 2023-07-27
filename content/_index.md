@@ -1,5 +1,5 @@
 ---
-title: Wake up to the truth with redpill
+title: RedPill - Home
 subtitle: The red pill of reality.
 image: img/s.jpg
 blurb:
@@ -7,7 +7,7 @@ blurb:
 intro:
   heading: Wake up to the truth with redpill
   image1: img/home.jpg
-  tagline: intro text 123
+  tagline: The RedPill of reality.
 about:
   heading: About
   text: >-
