@@ -7,7 +7,13 @@
         <article class="site-blog-details">
           <p><span>{{ .PublishDate.Format "January 2, 2006" }}</span> by <span>{{ .Params.author }}</span></p>
           <h2 class="blog-title">{{ .Title }}</h2>
-          <img class="feature-image" src="{{ .Params.feature_image | absURL }}" alt="blog-feature-image">
+          <div class="mb-5" style="background-image: url('{{ .Params.image | absURL }}'); 
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          width: 100%; 
+          height: 300px;"></div>
+          
           {{ .Content }}
         </article>
       </div>

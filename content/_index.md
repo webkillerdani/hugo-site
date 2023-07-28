@@ -1,9 +1,5 @@
 ---
 title: RedPill - Home
-subtitle: The red pill of reality.
-image: img/s.jpg
-blurb:
-  heading: teste
 intro:
   heading: Wake up to the truth with redpill
   image1: img/home.jpg
@@ -57,4 +53,11 @@ services:
       heading: Courses
       description: Lorem ipsum dolor sit amet, consec tetur adipis cing elit. Ut elit
         tellus, luctus nec ullam corper mattis.
+action:
+  heading: Machen Sie mit und erwachet Männer zur Wahrheit
+  button: Join Us
+subtitle: The red pill of reality.
+blurb:
+  heading: teste
+image: img/s.jpg
 ---
