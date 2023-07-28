@@ -1,10 +1,31 @@
-<section class="section-title" style="background-color:#000;">
+<section class="section-title bg-dark">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3">
-                <h2 class="mb-5">{{ .Params.services.heading }}</h2>
+            <div class="col-lg-4 d-flex align-items-center">
+                <div class="pr-4">
+                    <h2 class="mb-3">{{ .Params.services.heading }}</h2>
+                    <p class="text-white">{{ .Params.services.text }}</p>
+                    <a href="" class="btn btn-primary mt-3">
+                        <span class="btn-area">
+                        <span data-text="Join Us">
+                            CONTACT US
+                        </span>
+                        </span>
+                    </a>
+                </div>
             </div>
-            <div class="col-lg-9"></div>
+            <div class="col-lg-8" style="background-image: url('{{ .Params.services.image4 }}'); background-position: bottom center; background-repeat: no-repeat; background-size: cover;padding: 350px 0 0;">
+                <div class="bg-overlay-services"></div>
+                <ul class="d-flex bg-dark mb-0 list-unstyled p-3" style="position: relative;">
+                    {{ range .Params.services.list_services }}
+                    <li class="p-4">
+                        <i class="fa fa-2x fa-{{ .icon }} text-white mb-4"></i>
+                        <h3 class="text-white">{{ .heading }}</h3>
+                        <p class="text-white mt-4">{{ .description }}</p>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
         </div>
     </div>
 </section>

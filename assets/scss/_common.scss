@@ -67,3 +67,17 @@ select.form-control{
 textarea.form-control{
   height: auto;
 }
+
+.bg-dark {
+  background-color: #212121!important
+}
+
+.bg-overlay-services {
+  height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  background-color: #2D2D2D;
+    opacity: 0.75;
+}
