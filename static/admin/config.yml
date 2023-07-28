@@ -50,8 +50,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: "List Services", name: "list_services", widget: list, fields: [
                 {label: Icon, name: icon, widget: string},
                 {label: Heading, name: heading, widget: string}, 
-                {label: Description, name: description, widget: "text"}
-              ] }]},
+                {label: Description, name: description, widget: "text"}] }]},
           - {label: "Action", name: action, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Button", name: "button", widget: string}]}
