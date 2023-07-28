@@ -1,4 +1,4 @@
-local_backend: false
+#local_backend: false
 
 
 backend:
@@ -6,7 +6,7 @@ backend:
   branch: main
 
 # This line should *not* be indented
-publish_mode: editorial_workflow
+#publish_mode: editorial_workflow
 
 media_folder: "static/img" # Folder where user uploaded files should go
 public_folder: "img"
